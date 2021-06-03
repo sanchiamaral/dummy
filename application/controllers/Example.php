@@ -36,7 +36,7 @@ class Example extends CI_Controller {
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
                     'Content-Type:application/json',
                     'x-rapidapi-host: restcountries-v1.p.rapidapi.com',
-                    'x-rapidapi-key: SIGN-UP-FOR-KEY'
+                    'x-rapidapi-key: 4336abca41msh6690091d54234fdp14c20fjsn1e0b9e9c17e0'
                 ));
             
         /* set return type json */
@@ -61,6 +61,8 @@ class Example extends CI_Controller {
             );
 
             var_dump($data);
+
+            // echo $response->name;
         }
 
         //decode as object
